@@ -1,0 +1,38 @@
+{
+  "description": "A package for decoding Privacy-Enhanced Mail (PEM) objects",
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "jasmine": "^3.2.0",
+    "jasmine-core": "^3.2.1",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-safari-launcher": "^1.0.0",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.3",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.3.0"
+  },
+  "homepage": "https://github.com/BillieWintheiser/dictaipsa.git",
+  "keywords": [
+    "PEM"
+  ],
+  "license": "MIT",
+  "main": "./dist/node/pem.js",
+  "name": "dictaipsa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BillieWintheiser/dictaipsa.git"
+  },
+  "types": "./dist/types/pem.d.ts",
+  "version": "1.0.0",
+  "author": "MarjolaineSimonis"
+}
